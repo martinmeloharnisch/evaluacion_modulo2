@@ -239,7 +239,7 @@ while True:
         lista.append(a) #agrega al final de la lista el valor de variable a
         pregunta_final=str(input("¿Continuar con el programa? si o no. : "))
         if pregunta_final=="no": #termino de bucle e imprimir la lista de valores ingresados
-            print("Historial de ingresos")
+            print("Historial de ingresos:")
             #n=1
             for i in lista:
                 i=int(i)
